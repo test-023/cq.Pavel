@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+
+<head>
+ <meta charset="UTF-8">
+ <title>Тестовое задание WAYtoSTART </title>
+ <meta name="description" content="Тестовое задание WAYtoSTART на ваканстю Frontend-разработчик">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="page-header">
+ <div class="page-logo">
+  <img src="img/logo.png" alt="CAPTAIN QUACK" width="494" height="104">
+ </div>
+</header>
+<main>
+ <div class="container">
+<h2 class="page-title">¡Ay caramba!</h2>
+<form class="form" action="#" method="POST">
+ <div class="form__inputs-wrapper">
+  <label class="form__label form__label--name">
+   <input class="form__input" id="input-name" type="text" name="title" placeholder="Название" required="required">
+   <span class="form__input-title">Название</span>
+  </label>
+  <label class="form__label form__label--year">
+   <input class="form__input" id="input-year" type="text" name="year" placeholder="Год" required="required">
+   <span class="form__input-title">Год</span>
+  </label>
+  <label class="form__label form__label--price">
+   <input class="form__input" id="input-price" type="text" name="price" placeholder="Цена" required="required">
+   <span class="form__input-title">Цена</span>
+  </label>
+  <label class="form__label form__label--description">
+   <input class="form__input" id="input-description" type="text" name="description" placeholder="Описание" required="required">
+   <span class="form__input-title">Описание</span>
+  </label>
+ </div>
+ <div class="form__label form__label--radio-btns">
+ <div class="form__radio-wrapper">
+  <span class="form__color--name">Цвет</span>
+  <label class="form__label form__color--radio">
+   <input class="form__input-radio" type="radio" value="white" alt="Белый цвет" name="color" checked="checked">
+   <span class="form__span-radio circle-color circle-color--white"></span>
+  </label>
+  <label class="form__label form__color--radio">
+   <input class="form__input-radio" type="radio" value="black" alt="Черный цвет" name="color">
+   <span class="form__span-radio circle-color circle-color--black"></span>
+  </label>
+  <label class="form__label form__color--radio">
+   <input class="form__input-radio" type="radio" value="grey" alt="Серый цвет" name="color">
+   <span class="form__span-radio circle-color circle-color--grey"></span>
+  </label>
+  <label class="form__label form__color--radio">
+   <input class="form__input-radio" type="radio" value="red" alt="Красный цвет" name="color">
+   <span class="form__span-radio circle-color circle-color--red"></span>
+  </label>
+  <label class="form__label form__color--radio">
+   <input class="form__input-radio" type="radio" value="green" alt="Зеленый цвет" name="color">
+   <span class="form__span-radio circle-color circle-color--green"></span>
+  </label>
+ </div>
+ </div>
+<label class="form__label form__label--select">
+ <select class="form__select" id="select-status" name="status">
+  <option class="form__select-option" value="" selected="selected" disabled="disabled">Статус:</option>
+  <option class="form__select-option" value="in_stock">В наличии</option>
+  <option class="form__select-option" value="pednding">Ожидается</option>
+  <option class="form__select-option" value="out_of_stock">Нет в наличии</option>
+ </select>
+</label>
+<button class="btn btn--submit" type="button">
+ Отправить
+ <svg class="btn__svg" xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 10 14">
+  <path d="M.99 10.85L4.87 7 1 3.15 3.17.98l5.84 5.78-.24.24.24.24L3.17 13z"></path>
+ </svg>
+</button>
+</form>
+<table class="table" id="table-order-car">
+ <caption class="table__caption">Автомобили в наличии</caption>
+ <thead class="table__header">
+  <tr class="table__item-key">
+   <th>Название</th>
+   <th>Год</th>
+   <th>Цвет</th>
+   <th>Статус</th>
+   <th colspan="3">Цена</th>
+  </tr>
+ </thead>
+</table>
+</div>
+</main>
+<footer class="page-footer">
+ <div class="page-footer--wrapper">
+ <p>&copy; 2015 Captain quack</p>
+ <blockquote>Десница тысячелетия и моллюск!</blockquote>
+ </div>
+</footer>
+<template id="template-order-car">
+ <tbody class="table__item">
+  <tr>
+   <td class="table__item-value table__item-value--title"></td>
+   <td class="table__item-value table__item-value--year"></td>
+   <td class="table__item-value table__item-value--color">
+    <span class="circle-color"></span>
+   </td>
+   <td class="table__item-value table__item-value--status"></td>
+   <td class="table__item-value table__item-value--price"></td>
+   <td class="table__item-value table__item-value--btn"><button class="btn btn--delete" type="button">Удалить</button></td>
+   <td class="table__item-value table__item-value--description-mobile"></td>
+  </tr>
+  <tr>
+   <td class="table__item-value table__item-value--description" colspan="7"></td>
+  </tr>
+ </tbody>
+</template>
+<script src="js/script.js"></script>
+</body>
+</html>

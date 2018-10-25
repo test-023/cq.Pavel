@@ -1,0 +1,55 @@
+[{
+    "id": 1,
+    "title": "1.6 MT Ambiente 85 л.с. МКПП",
+    "description": "+ доп. опция «Радио-навигационная система Amundasen 2DIN, CD, MP3",
+    "year": 2012,
+    "color": "black",
+    "status": "pednding",
+    "price": 1689000
+  },
+  {
+    "id": 2,
+    "title": "1.6 MT Ambiente Plus 105 л.с. МКПП",
+    "description": "",
+    "year": 2012,
+    "color": "white",
+    "status": "pednding",
+    "price": 1189900
+  },
+  {
+    "id": 3,
+    "title": "1.6 MT Trend 105 л.с. МКПП",
+    "description": "",
+    "year": 2012,
+    "color": "black",
+    "status": "in_stock",
+    "price": 1459000
+  },
+  {
+    "id": 4,
+    "title": "1.6 PowerShift Trend Sport 105 л.с. АКПП",
+    "description": "",
+    "year": 2012,
+    "color": "grey",
+    "status": "pednding",
+    "price": 1459000
+  },
+  {
+    "id": 5,
+    "title": "2.0 MT Trend Sport 150 л.с. МКПП",
+    "description": "+ доп. опция Радио-навигационная система Amundasen 2DIN, CD, MP3",
+    "year": 2012,
+    "color": "red",
+    "status": "pednding",
+    "price": 786000
+  },
+  {
+    "id": 6,
+    "title": "2.0 PowerShift Trend Sport 150 л.с. АКПП",
+    "description": "+ доп. опция «Радио-навигационная система Amundasen 2DIN, CD, MP3",
+    "year": 2013,
+    "color": "green",
+    "status": "out_of_stock",
+    "price": 821000
+  }
+]
